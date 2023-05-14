@@ -21,7 +21,7 @@
 
 1. 
 
-## Walkthrough video demonstrating the functionality of the application
+## Walkthrough Video 
 1.
 
 ## Sample README.md file for a project repository generated using generator application.
