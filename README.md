@@ -24,6 +24,8 @@
 ## Walkthrough Video 
 1.
 
+## Screenshot of App
+
 ## Sample README.md file for a project repository generated using generator application.
 
 1.
