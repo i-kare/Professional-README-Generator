@@ -52,17 +52,22 @@ function renderLicenseSection(license) {
     return ""
   }
 
-  const badge = renderLicenseBadge(data.license);
-
   
+  const link = renderLicenseLink(data.license) 
+  
+  const section = `This is covered by the ${license} license. More information found here ${link}`
+
+  return section
 }
 
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
- 
-
-  return `## Description
+  const badge = renderLicenseBadge(data.license);
+  const licenseSection = renderLicenseSection(data.license)
+  return `
+      ${badge}
+      ## Description
         ${data.description}
 
       ## Table of Contents 
@@ -80,7 +85,7 @@ function generateMarkdown(data) {
         ${data.usage}
 
       ## License
-        ${data.license}
+        ${licenseSection}
 
       ## Contributing
         ${data.contributing}
