@@ -138,9 +138,9 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 function writeReadme(fileName, data) {
     const markdownContent = generateMarkdown(data)
-    //  fs.writeFile(fileName, markdownContent, (err)=> //Function to generate Readme.md
-    //      err ? console.log(err) : console.log('Sucessfully created ReadMe!')
-    //  );
+    fs.writeFile(fileName, markdownContent, (err) => //Function to generate Readme.md
+        err ? console.log(err) : console.log('Sucessfully created ReadMe!')
+    );
 }
 
 // TODO: Create a function to initialize app
