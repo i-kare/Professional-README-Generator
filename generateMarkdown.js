@@ -38,7 +38,7 @@ function renderLicenseLink(license) {
     link = `https://opensource.org/licenses/BSD-2-Clause`
   } else if (license === 'BSD 3-Clause "New" or "revised" License') {
     link = `https://opensource.org/licenses/BSD-3-Clause`
-  } else {
+  } else {``
     link = ''
   }
 
@@ -53,7 +53,7 @@ function renderLicenseSection(license) {
   }
 
   
-  const link = renderLicenseLink(data.license) 
+  const link = renderLicenseLink(license) 
   
   const section = `This is covered by the ${license} license. More information found here ${link}`
 
@@ -66,37 +66,36 @@ function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.license);
   const licenseSection = renderLicenseSection(data.license)
   return `
-      ${badge}
-      ## Description
-        ${data.description}
+  ${badge}
+  ## Description
+    ${data.description}
 
-      ## Table of Contents 
-        -[Installation](#installation)
-        -[Usage](#usage)
-        -[License](#license)
-        -[Contributing](#contributing)
-        -[Test](#tests)
-        -[Questions](#questions)
+  ## Table of Contents 
+    -[Installation](#installation)
+    -[Usage](#usage)
+    -[License](#license)
+    -[Contributing](#contributing)
+    -[Tests](#tests)
+    -[Questions](#questions)
 
-      ## Installation
-        ${data.installation}
+  ## Installation
+    ${data.installation}
 
-      ## Usage
-        ${data.usage}
+  ## Usage
+    ${data.usage}
 
-      ## License
-        ${licenseSection}
+  ## License
+    ${licenseSection}
 
-      ## Contributing
-        ${data.contributing}
+  ## Contributing
+    ${data.contributing}
 
-      ## Tests
-        ${data.tests}
+  ## Tests
+    ${data.tests}
 
-      ## Questions
-        This is my github profile link github.com/${data.github}
-        You can reach me at ${data.email}
-      `;
+  ## Questions
+    This is my github profile link github.com/${data.github}
+    You can reach me at ${data.email}`;
 }
 
 
