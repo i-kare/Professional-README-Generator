@@ -18,11 +18,13 @@
 7. WHEN I click on the links in the Table of Contents THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video 
-1.
+1. https://drive.google.com/file/d/1LjW0njpZhDYRWosFpd14r7DlttOXso6_/view?usp=sharing
 
 ## Screenshot of App
+1. [<img src="img/sampleMD1.png">](Mechanical Devices.md)
+2. [<img src="img/sampleMD2.png">](Mechanical Devices.md)
+3. [<img src="img/sampleMD3.png">](Mechanical Devices.md)
 
-## Sample README.md 
-
-1.
+## Sample README.md
+1. Mechanical Devices.md
 
