@@ -18,7 +18,7 @@
 7. WHEN I click on the links in the Table of Contents THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video 
-1. https://drive.google.com/file/d/1LjW0njpZhDYRWosFpd14r7DlttOXso6_/view?usp=sharing
+Video: https://drive.google.com/file/d/1oJ6zkLvsifHjQVYKrtOH2NOj52NGb1ez/view?usp=sharingLinks
 
 ## Screenshot of App
 The following is a screenshot for the mechanical devices sample markdown.
