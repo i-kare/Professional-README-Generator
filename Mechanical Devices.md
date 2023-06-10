@@ -1,31 +1,31 @@
 
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
-    Create a mechanical device for me
+    We create mechanical devices for the end user
 
   ## Table of Contents 
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[License](#license)
-    -[Contributing](#contributing)
-    -[Tests](#tests)
-    -[Questions](#questions)
+  [Installation](#installation)
+  [Usage](#usage)
+  [License](#license)
+  [Contributing](#contributing)
+  [Tests](#tests)
+  [Questions](#questions)
 
   ## Installation
     ./install
 
   ## Usage
-    ./mechanical
+    ./md device-type
 
   ## License
-    This is covered by the Apache License 2.0 license. More information found here https://opensource.org/licenses/Apache-2.0
+    This is covered by the MIT License license. More information found here https://opensource.org/licenses/MIT
 
   ## Contributing
-    Make a pull request for me
+    Make a pull request
 
   ## Tests
-    ./test-mechanical
+    ./md run-tests
 
   ## Questions
-    This is my github profile link github.com/i-kare
+    This is my github profile link github.com/knrojas@ucdavis.edu
     You can reach me at knrojas@ucdavis.edu
