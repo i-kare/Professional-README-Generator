@@ -22,9 +22,7 @@
 
 ## Screenshot of App
 The following is a screenshot for the mechanical devices sample markdown.
-<img src="img/sampleMD1.png">
-<img src="img/sampleMD2.png">
-<img src="img/sampleMD3.png">
+<img src="img/sampleMD.png">
 
 ## Sample README.md
 1. [Mechanical Devices.md](./Mechanical%20Devices.md)
